@@ -31,7 +31,7 @@ def bit_converter(byte_num):
     return [mb_num, gb_num]
 
 
-var_dir = pathlib.Path('/var')
+var_dir = pathlib.Path('/home/zach')
 dir_tree = build_dir_tree(var_dir)
 show_dir_tree(dir_tree)
 
